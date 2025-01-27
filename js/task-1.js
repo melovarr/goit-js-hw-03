@@ -1,8 +1,6 @@
 function slugify(title) {
-    // title.;
     const titleChanged = title.toLowerCase().split(" ");
     return titleChanged.join("-");
-    // return `You ordered ${quantity} droids worth ${quantity * pricePerDroid} credits!`;
 }
 
 
